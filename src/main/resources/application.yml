@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://aws-demo-database.cgrqqoed44gg.eu-north-1.rds.amazonaws.com/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
