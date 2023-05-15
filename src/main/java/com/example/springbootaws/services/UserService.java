@@ -22,7 +22,6 @@ public class UserService {
                 .firstName(user.getFirstName())
                 .phone(user.getPhone())
                 .lastName(user.getLastName())
-                .staffId(user.getStaffId())
                 .physicalAddress(user.getPhysicalAddress())
                 .build();
         return userRepository.save(userEntity);

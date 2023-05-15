@@ -16,7 +16,6 @@ public class UserDTO {
     private Long id;
     private String firstName;
     private String lastName;
-    private String staffId;
     private String email;
     private String phone;
     private String physicalAddress;

@@ -1,8 +1,8 @@
 package com.example.springbootaws.db.entities;
 
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 /**
  * @author Morris.Okworo on 11/04/2023
  */
@@ -21,7 +21,6 @@ public class UserEntity {
     private Long id;
     private String firstName;
     private String lastName;
-    private String staffId;
     private String email;
     private String phone;
     private String physicalAddress;
